@@ -1,12 +1,11 @@
 "use client"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { Home, User, Code, Briefcase, MessageSquare } from 'lucide-react'
 import {cn} from "./lib/utils"
 import { useEffect, useState } from "react"
 
 export function Nav() {
-  const pathname = usePathname()
+
   const [activeSection, setActiveSection] = useState("header")
 
   useEffect(() => {

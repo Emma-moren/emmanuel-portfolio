@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Header } from "@/components/ui/header";
 import { About } from "@/components/ui/about";
 import {Skills} from "@/components/ui/skills";
@@ -7,7 +7,7 @@ import {Hire} from "@/components/ui/hire";
 import { Testimonials } from "@/components/ui/testimonials";
 import { Nav } from "@/components/ui/nav";
 import { Footer } from "@/components/ui/footer";
-import {Loader} from "@/components/ui/loader"
+import {Loader} from "@/components/ui/loader"  
 
 
 export default function Home() {

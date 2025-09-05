@@ -1,6 +1,5 @@
 'use client'
-
-import { useRef, useEffect } from "react"
+import Image from "next/image";
 
 export function About() {
   
@@ -13,9 +12,11 @@ export function About() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 xl:gap-12 items-center max-w-7xl mx-auto">
               <div className="order-2 md:order-1">
           <div className="rounded-lg overflow-hidden bg-[#3a5cb0] shadow-lg border border-[#de7a0b]/20 w-full">
-          <img 
+          <Image
            src="/projects/pino.jpeg" 
            alt="Emmanuel Irimoren - Full Stack Software Engineer"
+           width={400}
+          height={300}
            className="w-full h-auto"
            />
           
@@ -35,8 +36,7 @@ export function About() {
               </p>
                 <p>
                I can help with everything from critical-clear content to high-performing websites for your company. 
-                Every successful
-               project is fueled by passion, accuracy, and purpose.  Let's get together and create something truly remarkable!
+                Every successful project is fueled by passion, accuracy, and purpose.  Let&apos;s get together and create something truly remarkable!
               </p>
                 </div>
                 
